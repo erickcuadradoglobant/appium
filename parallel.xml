@@ -5,14 +5,14 @@
         <listener class-name="listeners.ExtentReporter" />
         <listener class-name="listeners.TestResultListenerAdapter" />
     </listeners>
-    <test name="Nexus 5" preserve-order="true">
-        <parameter name="port_" value="4723" />
+    <test name="Nexus S" preserve-order="true">
+        <parameter name="port_" value="${port1}" />
         <packages>
             <package name="tests.*"></package>
         </packages>
     </test>
     <test name="Nexus 4" preserve-order="true">
-        <parameter name="port_" value="4725" />
+        <parameter name="port_" value="${port2}" />
         <packages>
             <package name="tests.*"></package>
         </packages>
