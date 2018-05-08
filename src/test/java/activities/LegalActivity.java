@@ -16,7 +16,7 @@ public class LegalActivity extends BaseActivity {
     }
 
     public LegalActivity swipeDown() {
-        swipe(400, 450, 0, -40);
+//        swipe(400, 450, 0, -40);
         return this;
     }
 

@@ -1,6 +1,8 @@
 
 package tests;
 
+import activities.Home2Activity;
+import activities.HomeActivity;
 import activities.LegalActivity;
 import activities.StartActivity;
 import org.testng.Assert;
@@ -11,14 +13,13 @@ public class MyFirstTest extends BaseTest {
 
     @Test(description = "Display legal notices PASSED")
     public void displayLegalNoticesPASSTest() throws InterruptedException {
-        StartActivity startActivity = new StartActivity(driver);
-        LegalActivity legalActivity = startActivity
+    	String message ="Hola mundo con Appium #Globant #TAE #Test";
+    	StartActivity startActivity = new StartActivity(driver);
+        startActivity
                 .clickLogin()
-                .fillData("roberto", "topsecret")
-                .clickAbout()
-                .clickLegalNotices()
-                .swipeDown();
-        Assert.assertTrue(true);
+                .fillData("evozur_92@hotmail.com", "pitufo12")
+                .autorizar().twiitear("Este es el msg");
+        Thread.sleep(4000);
     }
 
 }

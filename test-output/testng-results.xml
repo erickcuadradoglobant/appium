@@ -2,22 +2,22 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21" started-at="2018-04-10T22:38:34Z" finished-at="2018-04-10T22:38:34Z">
+  <suite name="Default suite" duration-ms="31" started-at="2018-05-07T23:56:13Z" finished-at="2018-05-07T23:56:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21" started-at="2018-04-10T22:38:34Z" finished-at="2018-04-10T22:38:34Z">
+    <test name="Default test" duration-ms="31" started-at="2018-05-07T23:56:13Z" finished-at="2018-05-07T23:56:13Z">
       <class name="tests.MyFirstTest">
-        <test-method status="FAIL" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.MyFirstTest@57536d79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-10T17:38:34Z" finished-at="2018-04-10T17:38:34Z">
+        <test-method status="FAIL" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.MyFirstTest@64bf3bbf]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-05-07T18:56:13Z" finished-at="2018-05-07T18:56:13Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'port_' is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined
-in C:\Users\erick.cuadrado\AppData\Local\Temp\testng-eclipse--542655302\testng-customsuite.xml]]>
+in C:\Users\erick.cuadrado\AppData\Local\Temp\testng-eclipse--299168413\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'port_' is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined
-in C:\Users\erick.cuadrado\AppData\Local\Temp\testng-eclipse--542655302\testng-customsuite.xml
+in C:\Users\erick.cuadrado\AppData\Local\Temp\testng-eclipse--299168413\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
@@ -48,17 +48,17 @@ in C:\Users\erick.cuadrado\AppData\Local\Temp\testng-eclipse--542655302\testng-c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="displayLegalNoticesPASSTest()[pri:0, instance:tests.MyFirstTest@57536d79]" name="displayLegalNoticesPASSTest" duration-ms="1" started-at="2018-04-10T17:38:34Z" description="Display legal notices PASSED" finished-at="2018-04-10T17:38:34Z">
+        <test-method status="SKIP" signature="displayLegalNoticesPASSTest()[pri:0, instance:tests.MyFirstTest@64bf3bbf]" name="displayLegalNoticesPASSTest" duration-ms="1" started-at="2018-05-07T18:56:13Z" description="Display legal notices PASSED" finished-at="2018-05-07T18:56:13Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'port_' is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined
-in C:\Users\erick.cuadrado\AppData\Local\Temp\testng-eclipse--542655302\testng-customsuite.xml]]>
+in C:\Users\erick.cuadrado\AppData\Local\Temp\testng-eclipse--299168413\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'port_' is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined
-in C:\Users\erick.cuadrado\AppData\Local\Temp\testng-eclipse--542655302\testng-customsuite.xml
+in C:\Users\erick.cuadrado\AppData\Local\Temp\testng-eclipse--299168413\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)

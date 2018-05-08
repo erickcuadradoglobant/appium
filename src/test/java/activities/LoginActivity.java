@@ -17,6 +17,9 @@ public class LoginActivity extends BaseActivity {
 
     @AndroidFindBy(id = "com.twitter.android:id/login_password")
     private AndroidElement inputPassword;
+    
+    @AndroidFindBy(id="com.twitter.android:id/login_login")
+    private AndroidElement loginbutton;
 
     public LoginActivity(AppiumDriver driver) {
         super(driver);
@@ -28,10 +31,11 @@ public class LoginActivity extends BaseActivity {
         return new AboutActivity(driver);
     }
 
-    public  LoginActivity fillData(String username, String password) {
+    public  Home2Activity fillData(String username, String password) {
         sendKeys(inputUsername, username);
         sendKeys(inputPassword, password);
-        return this;
+        click(loginbutton);
+        return new Home2Activity(driver);
     }
 
 }
